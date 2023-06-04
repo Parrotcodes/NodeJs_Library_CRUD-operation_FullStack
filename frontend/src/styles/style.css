@@ -1,0 +1,55 @@
+.books {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+  margin: 10px;
+  flex-wrap: wrap;
+}
+.book {
+  display: inline;
+  width: 350px;
+  background-color: skyblue;
+  height: 250px;
+  border-radius: 10px;
+  box-shadow: 2px 5px 15px white;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 700;
+  text-align: center;
+  color: rgb(177, 64, 64);
+}
+button {
+  background-color: greenyellow;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.add {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  border-radius: 10px;
+}
+
+.coverimg {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  border: none;
+}
